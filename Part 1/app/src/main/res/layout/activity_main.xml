@@ -20,8 +20,8 @@
             android:layout_height="wrap_content"
             android:text="Enter yout Name:" />
 
-        <TextView
-            android:id="@+id/textView7"
+        <EditText
+            android:id="@+id/name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Full Name:"
@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:text="Enter your Phone Number:" />
 
-        <TextView
+        <EditText
             android:id="@+id/textView10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -46,7 +46,7 @@
             android:layout_height="wrap_content"
             android:text="Enter Your Password:" />
 
-        <TextView
+        <EditText
             android:id="@+id/textView12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -59,7 +59,7 @@
             android:layout_height="wrap_content"
             android:text="Enter yout Email:" />
 
-        <TextView
+        <EditText
             android:id="@+id/textView14"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -70,7 +70,7 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="submitButton"
+            android:onClick="button_click"
             android:text="Submit" />
     </LinearLayout>
 
